@@ -1,0 +1,19 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Cloudstorage\\": "src/",
+      "Cloudstorage\\App\\": "app/"
+    },
+    "files": [
+      "app/Helpers/View.php"
+    ]
+  },
+  "require": {
+    "vlucas/phpdotenv": "^5.6",
+    "scssphp/scssphp": "^1.13",
+    "phpmailer/phpmailer": "^6.9"
+  },
+  "scripts": {
+    "cloudstorage": "php bin/cli.php"
+  }
+}
